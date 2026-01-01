@@ -1,0 +1,10 @@
+Text file to keep track of LOCKING file when actively working on it, see How to work on KiCAD Files with GitHub on teams.
+
+Log Template:
+
+FILE: boardName.kicad_pcb , schematicName.kicad_sch
+LOCKED BY: FULL NAME (PID)
+START: DATE and TIME
+STATUS: List what you are doing
+
+

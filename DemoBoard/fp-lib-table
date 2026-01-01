@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "inspireFly")(type "KiCad")(uri "${KIPRJMOD}/inspireFly.pretty")(options "")(descr ""))
+)
