@@ -1,4 +1,4 @@
-26798615926278535
+26803919552836792
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106463,7 +106463,21 @@ Varistor VF
 2
 2
 inspireFly
+CUI_MSD-1-A
+
+
+0
+13
+13
+inspireFly
 GCT_USB4110GFA
+
+
+0
+16
+16
+inspireFly
+HARWIN_M55-7101242R
 
 
 0
@@ -106501,6 +106515,13 @@ inspireFly
 SW_TL1015AF160QG
 
 
+0
+2
+2
+inspireFly
+SmallJumper
+SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open
+solder jumper open
 0
 2
 2
