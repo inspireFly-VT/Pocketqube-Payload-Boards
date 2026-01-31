@@ -1,0 +1,9 @@
+Manufacturer=Vishay
+PartNumber=VEMD8083
+PartCategory=Photodiode
+PackageCategory=Other
+PinCount=2
+Version=1.2
+Released=2026-01-26 11:16:48
+Downloaded=2026-01-29 02:59:28
+3D=Y
