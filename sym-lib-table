@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LTR-390UV")(type "KiCad")(uri "C:/InspireFlyUVtest1/KiCADv6/2026-01-23_17-39-02.kicad_sym")(options "")(descr ""))
+  (lib (name "MMC5983MA")(type "KiCad")(uri "C:/Users/byron/Downloads/ul_MMC5983MA/KiCADv6/2026-01-28_05-02-56.kicad_sym")(options "")(descr ""))
+  (lib (name "ICM42670P")(type "KiCad")(uri "C:/Users/byron/Downloads/ICM-42670-P/ICM-42670-P.kicad_sym")(options "")(descr ""))
+)
