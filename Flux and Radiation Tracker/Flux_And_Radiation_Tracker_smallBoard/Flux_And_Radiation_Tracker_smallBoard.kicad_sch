@@ -3935,7 +3935,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ddc511a4-4def-47ff-af88-520ee92a1a35")
 		(property "Reference" "J1"
 			(at 80.01 120.6499 0)
@@ -3947,7 +3946,7 @@
 			)
 		)
 		(property "Value" "Conn_01x07"
-			(at 80.01 123.1899 0)
+			(at 80.01 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)

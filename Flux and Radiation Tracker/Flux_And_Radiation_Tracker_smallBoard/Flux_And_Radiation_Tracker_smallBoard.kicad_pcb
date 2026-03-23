@@ -1256,7 +1256,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 0.294999 3 270)
+			(at 0.294999 2.75 270)
 			(layer "F.Fab")
 			(uuid "6acde73a-2dd5-4031-9a0a-cd87a656bdad")
 			(effects
