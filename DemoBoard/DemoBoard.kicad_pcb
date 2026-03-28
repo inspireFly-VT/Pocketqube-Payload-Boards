@@ -773,7 +773,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C11"
-			(at -2.24 -0.01 90)
+			(at -2.24 0.0025 90)
 			(layer "F.SilkS")
 			(uuid "11fbc986-9e16-431b-aeb3-6c23dfcd7856")
 			(effects
@@ -1084,8 +1084,8 @@
 			(uuid "b0ccfed6-de9f-4c3f-926e-f1a6b4968a38")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -1508,8 +1508,8 @@
 			(uuid "f6f55746-780e-4396-9445-f86881abc4f1")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -2073,8 +2073,8 @@
 			(uuid "56e2baa4-39d5-46b2-96c4-6805d3142127")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -2970,8 +2970,8 @@
 			(uuid "3426ae07-19c3-4395-b6b6-4b1cfd400744")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -3556,8 +3556,8 @@
 			(uuid "068a4d95-b77f-4c02-b418-3b84a84eeaae")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -3654,7 +3654,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C4"
-			(at 1.88 0.05 90)
+			(at 1.8775 -0.0025 90)
 			(layer "F.SilkS")
 			(uuid "31cfd504-5fc9-4d70-8a68-1ee749e4d334")
 			(effects
@@ -3967,8 +3967,8 @@
 			(uuid "9162a5ae-2223-4a90-a450-de18d6ea2c47")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -5424,8 +5424,8 @@
 			(uuid "adfa85f2-94b1-4395-a1ef-440591da36fc")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -6541,8 +6541,8 @@
 			(uuid "ba21b562-42b7-4ea5-910a-6f0d0cf3d6b9")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -7480,8 +7480,8 @@
 			(uuid "79485e28-0bc8-4597-97b5-6bc85c3cca0d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -7633,8 +7633,8 @@
 			(uuid "87afdb88-4514-4a4e-99e6-2385364e0096")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -8448,14 +8448,14 @@
 		(at 126.160001 42.5069 -90)
 		(tags "MCP2515T-I/ML ")
 		(property "Reference" "U6"
-			(at 3.4331 -0.269999 0)
+			(at -3.0569 2.200001 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "8bf596b2-bf83-4229-af5a-b3d2625dfaa4")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -10002,6 +10002,7 @@
 			(effects
 				(font
 					(size 0.8 0.8)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -10549,8 +10550,8 @@
 			(uuid "6df05d94-fadb-470d-9ab1-93f83f2d797f")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -11367,8 +11368,8 @@
 			(uuid "bee66a62-d0b5-4f67-8d96-1a1990724151")
 			(effects
 				(font
-					(size 0.787402 0.787402)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -12075,8 +12076,8 @@
 			(uuid "cd7abd4f-4374-4836-b7ad-8d0792efbdf2")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -12868,8 +12869,8 @@
 			(uuid "597d5909-92c2-4da2-9ccd-1a2431d6013e")
 			(effects
 				(font
-					(size 1.5 1.5)
-					(thickness 0.3)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -13585,8 +13586,8 @@
 			(uuid "42a1a5c9-d6af-490d-98b8-7f708335b706")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -15436,7 +15437,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Payload Demo Board V2"
+	(gr_text "Payload Demo Board V0.2"
 		(at 117.64 70.12 0)
 		(layer "F.SilkS")
 		(uuid "57537f6d-8460-40f7-b15b-3eca4c0f2c8e")
