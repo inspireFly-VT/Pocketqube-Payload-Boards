@@ -3932,6 +3932,58 @@
 		(layer "Edge.Cuts")
 		(uuid "096038a2-6ec0-40e9-bf9a-f1e82e375eb5")
 	)
+	(gr_text "I2C_SDA"
+		(at 136.2 96.625 90)
+		(layer "F.SilkS")
+		(uuid "012113e1-604c-4101-8b1c-e9355354e57f")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 136.175 89.875 90)
+		(layer "F.SilkS")
+		(uuid "2c6d8529-41b4-4e83-b0a1-538ae9d613da")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "I2C_SCL"
+		(at 136.15 93.25 90)
+		(layer "F.SilkS")
+		(uuid "4b94daaf-8afe-479f-a422-6ae9e60c7b26")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+3.3V"
+		(at 136.15 87.975 90)
+		(layer "F.SilkS")
+		(uuid "b728d6cb-9bd8-4670-9e09-40806cd0536a")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 159.1625 86.6125)
 		(end 158.1625 87.6125)
@@ -4363,6 +4415,14 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "ab46af5f-e1da-4a08-b65b-415699ad925b")
+	)
+	(segment
+		(start 138.335 89.33)
+		(end 138.15 89.515)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "dc692f16-fd3e-4bdd-a531-3aa42b0451ff")
 	)
 	(segment
 		(start 158.6625 94.6125)
