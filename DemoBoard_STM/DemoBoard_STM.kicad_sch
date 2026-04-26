@@ -9446,6 +9446,26 @@
 		)
 		(uuid "e83c96cb-f37e-43f4-bfe4-f14ed10acdc9")
 	)
+	(text "2 I2C"
+		(exclude_from_sim no)
+		(at 221.996 205.994 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0169e2ba-f0af-4ffd-91a9-d2d8250eda24")
+	)
+	(text "1 SPI"
+		(exclude_from_sim no)
+		(at 222.504 203.454 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "02f05536-cd18-4f96-a46f-51e0b1561d13")
+	)
 	(text "CAN Controller + Transceiver\n"
 		(exclude_from_sim no)
 		(at 274.574 20.32 0)
@@ -9745,10 +9765,10 @@
 		(uuid "50ddafcc-e5b1-4e7c-a069-06927c9b41b7")
 	)
 	(junction
-		(at 165.1 71.12)
+		(at 158.75 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5506af08-964b-4d1b-ac78-2da48d13779f")
+		(uuid "53438401-5efd-43dc-8300-8802ccad465f")
 	)
 	(junction
 		(at 165.1 78.74)
@@ -9823,12 +9843,6 @@
 		(uuid "89a7e366-88e7-489a-ade0-2568017a279b")
 	)
 	(junction
-		(at 158.75 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8cd1faf1-d582-4928-b350-76da6d224dda")
-	)
-	(junction
 		(at 43.18 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9887,12 +9901,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8aa1a30-178e-4e33-9c98-69badb890d80")
-	)
-	(junction
-		(at 147.32 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a9454f55-c93e-49ad-9a7c-00cd568ad3e3")
 	)
 	(junction
 		(at 364.49 185.42)
@@ -9965,6 +9973,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eca30991-ff0a-405c-b657-7e42368833b9")
+	)
+	(junction
+		(at 165.1 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edeb0281-7bdd-4da9-8778-215c13048baf")
+	)
+	(junction
+		(at 147.32 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f23e1901-985b-4a5d-ad7e-171b85bb3ab1")
 	)
 	(junction
 		(at 156.21 185.42)
@@ -10233,16 +10253,6 @@
 			(type default)
 		)
 		(uuid "14e56839-dd16-43f4-b0f7-929e7200b806")
-	)
-	(wire
-		(pts
-			(xy 158.75 72.39) (xy 158.75 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15217cdd-888f-4703-8ec3-639dac514727")
 	)
 	(wire
 		(pts
@@ -10536,7 +10546,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 71.12) (xy 165.1 71.12)
+			(xy 147.32 71.12) (xy 158.75 71.12)
 		)
 		(stroke
 			(width 0)
@@ -10823,16 +10833,6 @@
 			(type default)
 		)
 		(uuid "48f6f3a5-581f-4b8e-b71a-dc26f2fac198")
-	)
-	(wire
-		(pts
-			(xy 147.32 71.12) (xy 158.75 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "491fc469-1af9-4ad3-a2a4-f1683e089493")
 	)
 	(wire
 		(pts
@@ -12253,6 +12253,16 @@
 			(type default)
 		)
 		(uuid "e0fcc931-9a1b-44ad-93a2-a1226d7e3b43")
+	)
+	(wire
+		(pts
+			(xy 158.75 71.12) (xy 165.1 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2424abc-c563-4f32-9e65-a37bbc89039a")
 	)
 	(wire
 		(pts
