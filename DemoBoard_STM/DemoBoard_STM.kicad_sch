@@ -7164,6 +7164,16 @@
 		)
 		(uuid "e83c96cb-f37e-43f4-bfe4-f14ed10acdc9")
 	)
+	(text "ASMPH-0806-2R2M-T"
+		(exclude_from_sim no)
+		(at 139.192 108.966 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1133555b-1765-4b14-8a50-fb80e9853b1f")
+	)
 	(text "CAN Transceiver\n"
 		(exclude_from_sim no)
 		(at 236.728 20.574 0)
@@ -7295,6 +7305,12 @@
 		(uuid "19025d4c-c231-4fff-8a4d-5ea0ffc795f9")
 	)
 	(junction
+		(at 358.14 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29bef3de-07bb-4b00-8191-f6fb0d38c7cb")
+	)
+	(junction
 		(at 199.39 191.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7359,12 +7375,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ada7d90-b251-466f-8b02-08176ed7303c")
-	)
-	(junction
-		(at 358.14 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3c76c44b-3db7-4141-a292-b98b30d1827a")
 	)
 	(junction
 		(at 55.88 124.46)
@@ -8178,7 +8188,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 90.17) (xy 358.14 90.17)
+			(xy 353.06 90.17) (xy 358.14 90.17)
 		)
 		(stroke
 			(width 0)
@@ -9008,16 +9018,6 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 90.17) (xy 353.06 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df93f05d-f85c-4254-876e-d6e60bc1c950")
-	)
-	(wire
-		(pts
 			(xy 165.1 143.51) (xy 168.91 143.51)
 		)
 		(stroke
@@ -9115,6 +9115,16 @@
 			(type default)
 		)
 		(uuid "e8ad2c3a-106d-4ec6-bb28-4d6c5be3c6b3")
+	)
+	(wire
+		(pts
+			(xy 358.14 90.17) (xy 364.49 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea645c5f-3733-4847-a10a-f5017e103dfe")
 	)
 	(wire
 		(pts
@@ -11396,6 +11406,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 358.14 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0b7c2b09-be57-4b89-afc3-88e41a79fa32")
+		(property "Reference" "C26"
+			(at 361.95 84.074 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 361.95 86.614 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 359.1052 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 358.14 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 358.14 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a16ff17a-d48a-48ae-8289-a3b5677d449a")
+		)
+		(pin "1"
+			(uuid "20c53a20-139b-49f3-bd75-77b3469859db")
+		)
+		(instances
+			(project "DemoBoard_STM"
+				(path "/69f73f0f-32e5-40de-9ec6-e92a71672b5c"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 172.72 57.15 0)
 		(unit 1)
@@ -11588,7 +11679,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF"
+		(property "Value" "22uF"
 			(at 366.268 107.696 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11599,7 +11690,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 365.4552 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -11836,7 +11927,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 180.6448 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -11917,7 +12008,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 173.6852 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -13242,7 +13333,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 384.5052 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -13323,7 +13414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 315.2648 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -20096,87 +20187,6 @@
 			(project "DemoBoard_STM"
 				(path "/69f73f0f-32e5-40de-9ec6-e92a71672b5c"
 					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 358.14 86.36 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f93b2f9e-40a4-46ab-a9bd-90650aa46ffd")
-		(property "Reference" "C23"
-			(at 356.362 84.074 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47uF"
-			(at 356.362 81.534 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 357.1748 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 358.14 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 358.14 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2898253f-132f-4bc1-b951-d2ac5a9ffb16")
-		)
-		(pin "1"
-			(uuid "69ff3bf6-77db-4055-82d7-a643c8adfa94")
-		)
-		(instances
-			(project "DemoBoard_STM"
-				(path "/69f73f0f-32e5-40de-9ec6-e92a71672b5c"
-					(reference "C23")
 					(unit 1)
 				)
 			)
