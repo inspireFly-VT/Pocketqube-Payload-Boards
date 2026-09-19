@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP N34TS04MT3ETG
+D I2C / SMBus Interface; Schmitt Triggers and Noise Suppression Filters on SCL and SDA Inputs; 16-Byte Page Write Buffer; Low Power CMOS Technology; 2 x 3 x 0.75 mm TDFN Package and 2 x 3 x 0.5 mm UDFN Package; JEDEC TSE2004av Compliant Temperature Sensor; Temperature Range: -20C to 125C; DDR4 DIMM Compliant SPD EEPROM; Supply Range: 1.7 V - 5.5 V (SPD EEPROM) and 2.2 V - 5.5 V (TS)
+K
+F https://www.onsemi.com/pub/Collateral/N34TS04-D.PDF
+$ENDCMP
+#
+#End Doc Library

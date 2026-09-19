@@ -1,0 +1,9 @@
+Manufacturer=onsemi
+PartNumber=N34TS04MT3ETG
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline No-lead
+PinCount=9
+Version=2.1
+Released=2021-06-23 13:04:33
+Downloaded=2026-01-26 01:31:28
+3D=Y

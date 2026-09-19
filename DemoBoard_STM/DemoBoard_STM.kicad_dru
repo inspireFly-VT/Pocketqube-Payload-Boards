@@ -1,0 +1,7 @@
+(version 1)
+
+(rule "Force JLC Via Size 0.35/0.20"
+  (condition "A.Type == 'Via'")
+  (constraint via_diameter (min 0.35mm) (max 0.5mm))
+  (constraint hole_size   (min 0.20mm) (max 0.35mm))
+)

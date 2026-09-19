@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP VEMD8083
+D Photodiode 940nm 30ns 120 2-SMD, No Lead -40C ~ 85C,20 V,10nA,Surface Mount
+K
+F https://www.vishay.com/docs/80492/vemd8083.pdf
+$ENDCMP
+#
+#End Doc Library
